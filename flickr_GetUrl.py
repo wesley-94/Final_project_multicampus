@@ -12,6 +12,7 @@ def get_urls(image_tag, MAX_COUNT):
     flickr = FlickrAPI(key, secret)
     photos = flickr.walk(text=image_tag, tag_mode='all', tags=image_tag, 
                             extras='url_o', per_page=50, sort='relevance')
+
     count = 0
     urls = []
     for photo in photos:
