@@ -192,7 +192,7 @@ def main(_):
   #          os.path.join(FLAGS.model_dir, 'cropped_panda.jpg')) # input image 위치
 
   image = (FLAGS.image_file if FLAGS.image_file else
-           os.path.join(FLAGS.model_dir, 'c:/file_collection_for_project/49477780893_f3dc39d0d0_o.jpg'))
+           os.path.join(FLAGS.model_dir, 'c:/final_project_multi/rome/rome_0.jpg'))
 
   run_inference_on_image(image)
 
